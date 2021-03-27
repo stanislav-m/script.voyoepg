@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="EPG">
+        <setting label="URL" type="text"   id="epgURL" default="https://epg.kodibg.org/dl.php" />
+        <setting label="offset" type="slider" id="epgOffset" subsetting="true" default="0" range="-11,1,11" option="int" />
+        <setting label="EPG work dir" id="wrkdir" type="folder" default="" />
+        <setting label="Filter TV" type="bool" id="filterEPG" default="false"/>
+        <setting label="filter list" id="filterlist" type="file" default="" />
+        <setting label="Download interval" type="slider" id="epgDownLoadHrs" subsetting="true" default="6" range="0,1,24" option="int" />
+    </category>
+</settings>
